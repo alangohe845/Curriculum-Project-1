@@ -21,6 +21,9 @@ function Navbar() {
           <li>
             <Link to="/curriculums" className="bg-purple-600 px-2 py-1 rounded-lg text-white">Ver un curriculum registrado</Link>
           </li>
+          <li>
+            <Link to="/excel" className="bg-teal-700 px-2 py-1 rounded-lg text-white">Excel</Link>
+          </li>
         </ul>
       </div>
 

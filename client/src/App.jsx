@@ -17,6 +17,7 @@ import Proyectos from "./components/proyectos";
 import Redes from "./components/redes";
 import Certificados from "./components/certificados";
 import Idiomas from "./components/idiomas";
+import Excel from "./components/excel";
 import VerCurriculum from "./components/setCurriculum";
 import DeleteDatosGenerales from "./components/delete";
 import VistaCurri from "./pages/VerCurriculum";
@@ -34,6 +35,7 @@ function App() {
             <Route path="/edit/:id" element={<TaskForm />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/datos-generales" element={<DatosGenerales />} />
+            <Route path="/excel" element={<Excel />} />
             <Route path="/curriculum" element={<VistaContinua />} />
             <Route path='curriculum/:id'>
               <Route path='escolaridad' element={<Escolaridades />}></Route>
